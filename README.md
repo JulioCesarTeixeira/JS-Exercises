@@ -1,5 +1,7 @@
 # Startup Antwerp Lamarr
 
+![The schedule](Extra-Info/plan.png)
+
 This repo is the source of information about activities with BeCode: Briefings, guidelines, tasks, tutorials, exercises etc...
 Clone this to your pc and `git pull` often to make sure you have the most recent version.
 

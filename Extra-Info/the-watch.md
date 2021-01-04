@@ -32,7 +32,6 @@ This means that if you have a watch on Wednesday, you should be able to give you
 - Alexandra
 - Marcel
 - Kai
-- Oscar
 - Anton
 - Jenifer
 - Younes

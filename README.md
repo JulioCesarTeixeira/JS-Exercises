@@ -36,7 +36,7 @@ In short here is what you do in any of the three cases above:
 2) You warn BeCode through [my.becode.org](https://my.becode.org/);
     - if you already have some note to justify your absence (doctors note, ...), then send this straight to us using the platform (my.becode.org)
     - if you know that you are going to obtain such document, tell us when you notify us of your absence, ...  Once you have the document, send it to us through the platform
-    - When you know that you will have no legal reason for the absence, tardiness, ... then please let us know asap as well on ryver/whatsapp. Not showing up, or showing up late is considered unprofessional
+    - When you know that you will have no legal reason for the absence, tardiness, ... then please let us know asap as well on discord. Not showing up, or showing up late is considered unprofessional
 
 
 **Reminder**:

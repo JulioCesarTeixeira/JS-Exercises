@@ -19,6 +19,8 @@ To keep up to date with current events please check the [agenda](Extra-Info/agen
 - [Pedagogical contract in English](Extra-Info/contract.md)
 - [Registration Form](https://becode.typeform.com/to/ltkjYW)
 - [Php storm presentation](https://docs.google.com/presentation/d/1-C1ooQTMdAVjkGlDUyLLWBvbAnd6mm1Qn7XCL9KGc90/edit?usp=sharing)
+- [Discord manual](https://becodeorg.github.io/Discord-Decoded/)
+
 
 # Learning how to get information
 

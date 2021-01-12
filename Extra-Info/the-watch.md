@@ -39,6 +39,7 @@ This means that if you have a watch on Wednesday, you should be able to give you
 - Sanne
 - Serkan
 
+- Paul (extra)
 
 # Rules
 * 10 to 15 minutes of talking

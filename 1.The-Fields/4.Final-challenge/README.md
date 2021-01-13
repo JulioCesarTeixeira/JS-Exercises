@@ -36,7 +36,7 @@ You will do some peer evaluation. Every group will evaluate one other group usin
 ## Adding your own requirement(s)
 1. Change this file (directly on github or fork this repo)
 2. Add the requirement(s) at the bottom
-3. Notify the group on ryver
+3. Notify the group on Discord
 
 ## What makes a good requirement?
 A good requirement for this list is something that people should have been doing already and that we now explicitly write down. It should not be things that would be nice to have, but things that are essential for every self respecting website in **2021**.

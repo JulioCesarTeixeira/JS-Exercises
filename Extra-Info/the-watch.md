@@ -40,6 +40,9 @@ This means that if you have a watch on Wednesday, you should be able to give you
 - Serkan
 
 - Paul (extra)
+- Thomas (extra)
+- Pradeep (extra)
+- Isaac (extra)
 
 # Rules
 * 10 to 15 minutes of talking

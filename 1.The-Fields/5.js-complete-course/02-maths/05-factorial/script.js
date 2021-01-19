@@ -9,14 +9,17 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-    
-    // to get the value of an input: document.getElementById("element-id").value
+function factorialize(num) {
 
-    document.getElementById("run").addEventListener("click", function() {
-
-        // your code here
-
+    document.getElementById("run").addEventListener("click", function () {
+        //fetch the HTML input with id number and transforms the string in interger
+        let num = parseInt(document.getElementById("number").value);
+        let fact = 1;
+        for (let i=num; i>=1; i--){
+            fact = fact * i;
+        }
+        alert(fact);
     });
+}
+factorialize();
 
-})();

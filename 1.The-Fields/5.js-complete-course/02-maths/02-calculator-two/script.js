@@ -1,3 +1,4 @@
+
 /* becode/javascript
  *
  * /02-maths/02-calculator-two/script.js - 2.2: calculatrice (2)
@@ -14,6 +15,22 @@
 
     var performOperation = function(operation) {
         // perform the operation
+        switch (operation) {
+            case "addition":
+                alert(parseInt(document.getElementById("op-one").value) + parseInt(document.getElementById("op-two").value))
+                break
+            case "substraction":
+                alert(parseInt(document.getElementById("op-one").value) - parseInt(document.getElementById("op-two").value))
+                break
+            case "multiplication":
+                alert(parseInt(document.getElementById("op-one").value) * parseInt(document.getElementById("op-two").value))
+                break
+            case "division":
+                alert(parseInt(document.getElementById("op-one").value) / parseInt(document.getElementById("op-two").value))
+                break
+            default:
+                alert("That did not work, champ")
+        }
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
@@ -22,3 +39,7 @@
         });
     });
 })();
+
+
+
+

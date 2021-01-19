@@ -9,14 +9,29 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        // retrieve the values from id tag Numbers as strings && convert the strings into an array split()
+            let myArr = document.getElementById("numbers").value;
+            let strings = myArr.split(', ')
+        //create variable int and give it an empty array, which will be used to store the string array
+            let int = [];
+            for (let i = 0; i < strings.length; i++) {
+                int[i] = parseInt(strings[i]); //int = empty array named i; parseInt to convert the string array to numbers
+            }
+
+            //sort = embed function to sort array in alphabetical, numerical order
+            int.sort(function (a, b) {
+                return (a - b)
+
+            });
+            alert(int);
 
     });
 
-})();
+
+

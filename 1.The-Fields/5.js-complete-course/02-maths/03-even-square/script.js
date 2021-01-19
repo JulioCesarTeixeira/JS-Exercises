@@ -13,8 +13,10 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
-
+        let i;
+        for (i = 0; i <= 21; i++) {
+            document.write(Math.sqrt(i) + "<br>");
+        }
     });
 
 })();

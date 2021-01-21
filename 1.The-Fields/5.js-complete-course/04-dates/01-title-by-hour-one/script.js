@@ -8,11 +8,18 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
+// to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
-(function() {
-
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-
-    // your code here
-
-})();
+//new Date().getHours() is embed in JS. Simple If else statements to change
+//the 'target' ID to whatever the variable greeting tells
+function time() {
+    let greeting;
+    let time = new Date().getHours();
+    if (time < 18) {
+        greeting = "Hello";
+    } else {
+        greeting = "Good evening"
+    }
+    document.getElementById('target').innerHTML = greeting;
+}
+time();

@@ -9,8 +9,66 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
+/*
+        let user = document.getElementById('dob-year').value;
+        let dob = new Date(user);
+        let monthDif = Date.now() - dob.getTime();
+        let age_dt = new Date(monthDif);
+        let year = age_dt.getUTCFullYear();
+        let age = Math.abs(year - 1970);
+        alert( + age + "years");
+*/
+function calcAge() {
 
-})();
+    let day = document.getElementById('dob-day').value;
+    let month = document.getElementById('dob-month').value;
+    let year = document.getElementById('dob-year').value;
+   // let date = new Date(year, month, day);
+
+    let today = new Date();
+    let todYear = today.getFullYear();
+    let todMonth = today.getMonth();
+    let toDate = today.getDate();
+
+    let ageYear = todYear - year;
+
+    let age;
+    if (todMonth < month) {
+        alert(ageYear -1);
+    } else if (todMonth > month) {
+        age = ageYear;
+        alert(age);
+    } else {
+        if (toDate < todMonth) {
+            age = ageYear - 1;
+            alert(age -1);
+        }
+    }
+    console.log(age);
+}
+
+document.getElementById('run').addEventListener("click", function() {
+
+    calcAge();
+    /*
+    console.log(date);
+    console.log(today);
+    console.log(new Date(today.getFullYear(),today.getMonth(), today.getDate()));
+
+    if(today.getMonth()){
+        console.log(age -1);
+        alert((age -1) + ' years');
+    } else {
+        console.log(age);
+        alert(age + ' years');
+    }
+
+    if(today <= (new Date(today.getFullYear(),date.getMonth(), date.getDate()))){
+        console.log(age -1);
+        alert((age-1) + ' years');
+    } else {
+        console.log(age);
+        alert(age + ' years');
+    }*/
+});

@@ -9,10 +9,15 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+const newDate = new Date();
+let thisDate = newDate.toDateString();
+document.getElementById('target').innerHTML = thisDate;
 
-    // your code here
 
-})();
+
+
+
+
+
+

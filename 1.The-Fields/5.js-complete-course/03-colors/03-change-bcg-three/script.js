@@ -6,11 +6,15 @@
  * started at 26/10/2018
  */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+//eventListener that when clicked on the button generates a random number with Math random.
+//Nested inside Math.floor (which generates a random integer smaller than the given number
+    //in this case 16677254
 
-(function() {
+document.getElementById("run").addEventListener("click", function(){
+   let randomColor = Math.floor(Math.random()*16677254).toString(16);
+   document.body.style.backgroundColor = '#' + randomColor;
 
-    // your code here
+});
 
-})();
+
+

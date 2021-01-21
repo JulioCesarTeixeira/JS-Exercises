@@ -9,7 +9,17 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-function friday13(){
+
+function find13th(){
+    const
+}
+
+
+
+
+
+
+/*function friday13(){
 
         let count = 0;
         let year = document.getElementById('year').value;
@@ -26,4 +36,4 @@ function friday13(){
 
 document.getElementById('run').addEventListener('click', function () {
     alert(friday13());
-});
+}); */

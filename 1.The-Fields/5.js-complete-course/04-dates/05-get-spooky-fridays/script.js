@@ -10,30 +10,25 @@
 // You will have time to focus on it later.
 
 
-function find13th(){
-    const
+
+const new_Date = new Date();
+
+const lMonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function friday13th(year){
+    let theYear = document.getElementById('year').value;
+    let count = 0;
+    for (let month = 0; month <= 12; month++){
+        let theDate = new Date(theYear, month, 13);
+        console.log(theDate.getDay() === 5);
+        if (theDate.getDay() === 5){
+            count++;
+            document.write(lMonth[month] +
+                ' ' + theDate.getDate() + ', ' + theYear + '<br>');
+        }
+    }
 }
 
-
-
-
-
-
-/*function friday13(){
-
-        let count = 0;
-        let year = document.getElementById('year').value;
-        for (let month = 0; month < 12; month++) {
-            let d = new Date(year, month, 13);
-            if (d.getDay() === 5) {
-                count++;
-            }
-        }
-        return count;
-    }
-
-
-
-document.getElementById('run').addEventListener('click', function () {
-    alert(friday13());
-}); */
+document.getElementById('run').addEventListener('click', function(){
+    friday13th();
+})

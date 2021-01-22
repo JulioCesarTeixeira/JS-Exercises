@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function arrValue () {
 
     var fruits = [
         "pomme",
@@ -27,5 +27,10 @@
     ];
 
     // your code here
+fruits.forEach(value => console.log(value));
 
-})();
+}
+
+document.getElementById('run').addEventListener('click', function(){
+    arrValue();
+})

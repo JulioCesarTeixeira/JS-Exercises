@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function laFruit() {
 
     var fruits = [
         "apple",
@@ -26,6 +26,14 @@
         "cherry",
     ];
 
-    // your code here
+    const included = fruits.includes('apple');
+    if (included === true){
+        return console.log('Yes')
+    } else {
+        return console.log('no')
+    }
 
-})();
+}
+document.getElementById('run').addEventListener('click', function() {
+    laFruit();
+})

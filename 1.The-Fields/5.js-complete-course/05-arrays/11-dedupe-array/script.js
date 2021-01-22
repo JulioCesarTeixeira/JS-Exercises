@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function dedupe() {
 
     var fruits = [
         "cerise",
@@ -28,6 +28,10 @@
         "cerise",
     ];
 
-    // your code here
+    //Simple, just transform the array into a set, using this set constructor.
+    //Sets, different from arrays, do not accept duplicates.
+const unique = [...new Set(fruits)];
+console.log(unique);
 
-})();
+}
+document.getElementById('run').addEventListener('click', dedupe)

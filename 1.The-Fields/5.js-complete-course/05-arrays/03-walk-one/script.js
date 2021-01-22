@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function arrFruit () {
 
     var fruits = [
         "apple",
@@ -27,5 +27,13 @@
     ];
 
     // your code here
+    let i = 0; //length refers to the amount of elements in the array
+    while (i < fruits.length){
+        console.log(fruits[i]);
+        i += 1;
+    }
+}
 
-})();
+document.getElementById('run').addEventListener('click', function() {
+    arrFruit();
+})

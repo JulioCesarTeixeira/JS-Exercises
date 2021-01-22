@@ -9,8 +9,8 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
+function ageSum() {
     var people = [
         {
             firstname: "Grenville",
@@ -89,6 +89,10 @@
         },
     ];
 
-    // your code here
+    //people.map was used instead of a plain array. Because it is an array of objects, and map allows
+    //to isolate the age parameter in order to sum it up
+    const reduced = people.map(person => person.age).reduce((prev, next) => prev + next);
+    console.log(reduced);
+}
 
-})();
+document.getElementById('run').addEventListener('click', ageSum)

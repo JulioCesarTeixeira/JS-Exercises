@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function emails(){
 
     var people = [
         {
@@ -88,7 +88,13 @@
             email: "gkeatche@google.fr",
         },
     ];
+const foundPeople = people.findIndex(x => x.firstname === "Jean" && x.lastname === "Dupont");
+const emailPeople = people.find(x => x.firstname === 'Jean' && x.lastname === "Dupont");
+alert(foundPeople);
+console.log(emailPeople.email);
 
-    // your code here
+}
 
-})();
+document.getElementById('run').addEventListener('click', function() {
+    emails();
+})

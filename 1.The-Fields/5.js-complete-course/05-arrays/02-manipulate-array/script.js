@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function laFruit() {
 
     var fruits = [
         "pomme",
@@ -24,6 +24,13 @@
         "cerise",
     ];
 
-    // your code here
+    let first = fruits.shift();
+    let last = fruits.pop();
+    let newFirst = fruits.unshift("banana");
+    let newLast = fruits.push('kiwi');
+    document.write(fruits.join(", ")); //specifying a character to put between the values
 
-})();
+}
+document.getElementById('run').addEventListener('click', function(){
+    laFruit();
+})

@@ -50,6 +50,7 @@ const parseMovieData = movie => {
     result += wrapWithTag(movie[prop], `p`);
   }
   return result;
+
 };
 
 const orderByYear = (a, b) => {

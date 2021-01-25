@@ -1,7 +1,7 @@
 # Fix It
 
 Fix the errors in the JavaScript code.
-Make us of the documentation on [mdn](https://developer.mozilla.org/bm/). 
+Make use of the documentation on [mdn](https://developer.mozilla.org/bm/). 
 Your console is your friend, make use of console.log().
 
 * [01](./01/)

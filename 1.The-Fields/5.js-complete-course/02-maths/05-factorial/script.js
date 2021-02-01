@@ -12,7 +12,7 @@
 function factorialize(num) {
 
     document.getElementById("run").addEventListener("click", function () {
-        //fetch the HTML input with id number and transforms the string in interger
+        //fetch the HTML input with id number and transforms the string in integer
         let num = parseInt(document.getElementById("number").value);
         let fact = 1;
         for (let i=num; i>=1; i--){

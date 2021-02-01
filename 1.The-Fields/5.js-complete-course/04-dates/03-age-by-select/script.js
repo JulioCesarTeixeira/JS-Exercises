@@ -24,31 +24,31 @@ function calcAge() {
     let day = document.getElementById('dob-day').value;
     let month = document.getElementById('dob-month').value;
     let year = document.getElementById('dob-year').value;
-   // let date = new Date(year, month, day);
+    // let date = new Date(year, month, day);
 
     let today = new Date();
     let todYear = today.getFullYear();
-    let todMonth = today.getMonth();
+    let todMonth = today.getMonth()+1;
     let toDate = today.getDate();
 
     let ageYear = todYear - year;
 
     let age;
     if (todMonth < month) {
-        alert(ageYear -1);
     } else if (todMonth > month) {
         age = ageYear;
-        alert(age);
     } else {
-        if (toDate < todMonth) {
+        if (toDate < day) {
             age = ageYear - 1;
-            alert(age -1);
+        } else {
+            age = ageYear;
         }
     }
-    console.log(age);
+    alert(age);
+    console.log(toDate);
 }
 
-document.getElementById('run').addEventListener("click", function() {
+document.getElementById('run').addEventListener("click", function () {
 
     calcAge();
     /*
